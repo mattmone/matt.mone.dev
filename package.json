@@ -1,0 +1,29 @@
+{
+  "name": "matt.mone.dev",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "rollup -c",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mattmone/matt.mone.dev.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mattmone/matt.mone.dev/issues"
+  },
+  "homepage": "https://github.com/mattmone/matt.mone.dev#readme",
+  "dependencies": {
+    "lit-element": "^2.2.1"
+  },
+  "devDependencies": {
+    "rollup": "^1.26.2",
+    "rimraf": "^3.0.0",
+    "rollup-plugin-copy-glob": "^0.3.1",
+    "rollup-plugin-terser": "^5.1.2"
+  }
+}
